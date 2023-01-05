@@ -17,7 +17,7 @@ This plugin allows you to access the contents of a binary file as an array of by
 3. Access the converted array in your project via the `.data` property of the loaded resource. eg.:
 
 ```
-var my_data_array: PoolByteArray = preload("res://my-binary-file").data
+var my_data_array: PoolByteArray = preload("res://my-binary-file.bin").data
 ```
 
 ## Known Issues
